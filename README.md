@@ -41,13 +41,13 @@ Currently, this app is being powered by AI (Ollama), that is being hosted by me.
   - ```ollama pull qwen2.5:3b```
 - Start Ollama.
 - Then, Create a Python Virtual Env. Follow these Commands:
-  - ```git clone https://github.com/PranavVerma-droid/AI-Healthcare```
-  - ```cd AI-Healthcare```
+  - ```git clone https://github.com/idjevm/Stacy```
+  - ```cd Stacy```
   - ```python3 -m venv venv```
   - ```venv/Scripts/Activate.ps1```
 - After that is done, install the dependencies:
   - ```pip install -r requirements.txt```
-- Replace the Server URL in [config.py](code/config.py):
+- Replace the Server URL in [config.py](src/config.py):
   - Open the file, replace `https://ollama.pranavv.co.in` with `http://localhost:11434`.
 - Then, just run the app:
   - ```cd src && py main.py```
